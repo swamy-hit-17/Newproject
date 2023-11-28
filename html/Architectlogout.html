@@ -6,8 +6,26 @@
     <title>Log-out</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style>
-    body{
-      font-family: red hat display;
+   
+    .titles{
+      font-family: Red Hat Display;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .tit{
+      font-family: Red Hat Display;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      /* color:#54595E99; */
+    }
+    button{
+      border: 1px solid #354733;
     }
   </style>
   </head>
@@ -17,12 +35,12 @@
         <div class="col-lg-4 col-12 text-center" style="background-color: white; border-radius: 7px;">
               <p class="float-end"><button type="button" class="btn-close" aria-label="Close"></button></p>
               <br>
-              <div class="">
-                <h4 style="font-weight: 700; color: #54595E;">Sure you want to Log-out ?</h4>
-                <p class="text-secondary">Are you sure you want to Logout?</p>
+              <div >
+                <h4 class="titles" style="font-weight: 700; color: #54595E;">Sure you want to Log-out ?</h4>
+                <p class="text-secondary tit">Are you sure you want to Logout?</p>
               </div>
               <br>
-              <div class=" text-center">
+              <div class="d-flex justify-content-evenly">
                 <a href="#" class="btn btn-outline-success">No, Cancel</a>
                 <a href="#" class="btn text-light" style="background-color:#354733;">Yes,Confrim</a>
               </div><br>
