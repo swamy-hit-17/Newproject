@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <header style="width: 100%;" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="navbar bg-body-tertiary ">
+            <div class="container-fluid">
+            <a class="navbar-brand">Archestra</a>
+            <form class="d-flex" role="search">
+                <h2 class="bi bi-bell"></h2>
+                <p><img style="border-radius: 50%; height: 40px;" src="../img/Admin.png" alt=""></p>
+            </form>
+            </div>
+        </nav>
+    </header>
+      <!-- Sidebar -->      
+        
+      <div class="sidebar col-lg-2 col-md-2 col-12">
+            <a href="#" style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-grid-1x2-fill'></i>
+                <h6>Overview</h6>
+            </div></a>
+            <a href="#" style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-calendar'></i>
+                <h6>Bookings</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-file-earmark'></i>
+                <h6>Contract&Doc's</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-buildings'></i>
+                <h6>Projects</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-receipt'></i>
+                <h6>Invoice</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-wallet'></i>
+                <h6>Pyament</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-bell'></i>
+                <h6>Clients</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-file-person'></i>
+                <h6>Architect</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Settings</h6>
+            </div></a>
+            <a href="#"style="color: gray;"><div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Logout Account</h6>
+            </div></a>
+        </div>
+
+    <div class="main">
+        <div class="row">
+            <div class="col">            
+                    <div class="card card1 mt-5" style="width: 20rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Number of Registered User</h5>
+                        <p class="card-text">35</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col"> 
+                    <div class="card mt-5" style="width: 20rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">On Going Projects</h5>
+                        <p class="card-text">05</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-9 col-md-6 col-12 ">
+                <table class="table">
+                    <h3 class="table">The Projects</h3>
+                    <thead class="p-3 mb-2 table-success">
+                    <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Project ID</th>
+                        <th scope="col">Client Name</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Estimated Finish Date</th>
+                    </tr>
+                    </thead>
+                    <tbody class="p-3 mb-2">
+                    <tr>
+                        <th scope="row">Guest House</th>
+                        <td>111</td>
+                        <td>Sham</td>
+                        <td class="p-3 mb-2 text-danger on-go">
+                           <div class="going">On Going</div></td>
+                        <td></td>
+                        <td>20<sup>th</sup> Jan 2023</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Dream House</th>
+                        <td>222</td>
+                        <td>Ram</td>
+                        <td class="p-3 mb-2 text-danger on-go">
+                            <div class="going">On Going</div></td>
+                        <td></td>
+                        <td>20<sup>th</sup> Jan 2023</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Farm House</th>
+                        <td >333</td>
+                        <td>Krish</td>
+                        <td class="p-3 mb-2 text-danger on-go">
+                           <div class="going">On Going</div></td>
+                        <td></td>
+                        <td>20<sup>th</sup> Jan 2023</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.cards{
+    height: 157px !important;
+}
+.card-text{
+    font-weight: 700;
+    font-size: 30px;
+    color: gray;
+}
+.custom-table thead th {
+    background-color: #8A9B6E; /* Header background color */
+    color: #000; /* Header text color */
+}
+.back-ground{
+    height: 30px;
+    width: 100px;
+    background-color: #CEF1CB;
+    border-radius: 12px;
+}
+.back-grounding{
+    height: 30px;
+    width: 100px;
+    background-color: #FFE5B8;
+    border-radius: 12px;
+}
+.back-grow{
+    height: 30px;
+    width: 100px;
+    background-color: #FFE7BE;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 430px) {
+    body{
+        margin: 3;
+    }
+}

@@ -1,0 +1,2301 @@
+
+body{
+    font-family: 'Red Hat Display';
+}
+
+ul {
+   
+    margin-bottom: 0rem !important;
+}
+
+p{
+    color: #808276;
+    font-size: 14px;
+    font-family: 'Red Hat Display'    ;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Red Hat Display'    ;
+
+}
+
+a{
+    text-decoration: none  !important;
+}
+
+input::placeholder, option{
+    color:  #BDBDBD;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+option{
+    background: #F5F5F5;
+}
+
+label{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+  header {
+      transition: all 0.3s ease-in-out;
+      top: 0px;
+      background-color: #F1F2EF;
+      position: sticky;
+      z-index: 40;
+      height: auto;
+  }
+
+  .main-menu ul.right-nav li .button a{
+    background-color: #354733;
+
+
+  }
+
+  .image-container {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+p.heropara{
+    margin: 54px 0px;
+    font-family: 'Red Hat Display';
+}
+
+.row .heroleft{
+    width: 70%;
+    padding: 0px 30px 0px 0px;
+}
+
+.row .heroright{
+    width: 30%;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+p.aboutpara{
+    margin: 54px 0px;
+    font-family: 'Red Hat Display';
+}
+
+.row .aboutleft{
+    width: 50%;
+    padding: 0px 30px 0px 0px;
+}
+
+.row .aboutright{
+    width: 50%;
+}
+
+
+  a.buttons {
+    font-family: 'Red Hat Display';
+    background-color: #354733;
+    color: #fff;
+    padding: 18px 30px;
+    border-radius: 3px;
+}
+
+a.buttons:hover{
+    color: white;
+    text-decoration: none;
+}
+
+  section.sections{
+    padding: 90px 0px;
+    background-color: #FCFCFC;
+    width: 100%;
+
+    
+  }
+
+  .how-worktitle{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  section.sectiondefault{
+    padding: 90px 0px;
+    background-color:#F1F2EF ;
+  }
+
+
+
+.how-worktitle h2{
+    font-family: lora;
+    font-weight: 500;
+    color: #354733;
+    font-size: 40px;
+}
+
+.how-work-box h4 {
+    font-family: 'Red Hat Display';
+    color: #333333;
+    font-size: 24px;
+    margin: 19px 0px;
+}
+
+h2.herotitle{
+    color: #354733;
+    font-family: 'lora';
+    font-weight: 700;
+}
+
+.how-work-box p {
+    font-size: 14px;
+    font-family: 'Red Hat Display';
+    text-align: center;
+    font-weight: 300;
+}
+
+.how-work-container{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+
+}
+
+.how-work-box{
+    width: 25%;
+    margin: 0px 37px;
+    text-align: center;
+    
+}
+
+.how-work-box img.responsive-image {
+    width: 87px;
+}
+
+
+  .logo {
+      padding: 10px 0px;
+  }
+  .logo a {
+      
+      text-transform: capitalize;
+      color: #000000;
+      font-size: 35px;
+      font-weight: 500;
+      text-decoration: none;
+  }
+  .logo a:hover{
+    text-decoration: none;
+    color: #000000;;
+  }
+  .mob-menu {
+      display: none;
+  }
+  .main-menu {
+      margin: 20px 0px;
+      float: right;
+  }
+  .main-menu ul.nav {
+      float: left;
+      margin-right: 20px;
+      list-style: none;
+      padding-left: 0px;
+      margin-bottom: 0px;
+      padding-top:10px;
+  }
+  .nav li:first-child {
+      margin-left: 0px;
+  }
+  .main-menu ul {  display: inline-block; }
+  .main-menu ul li {
+      position: relative;
+      display: inline-block;
+      margin: 0px 20px;
+  }
+  .main-menu ul li a {
+    font-family: 'Red Hat Display';
+      font-size: 20px;
+      font-weight: 400;
+     
+      color: #78866B;
+      display: block;
+     text-decoration:none;
+  }
+  .main-menu ul.right-nav{   
+   padding-left:0px;
+  }
+  .main-menu ul.right-nav li a {
+    font-family: 'Red Hat Display';
+      width: 150px;
+      height: 45px;
+      border-radius: 4px;
+      font-size: 16px;
+      text-align: center;
+      color: #78866B;
+      border: solid 1px #78866B;
+      vertical-align: middle;
+      display: table-cell;
+  }
+  .main-menu ul.right-nav li:last-child {
+      margin-right: 0px;
+  }
+  .main-menu ul.right-nav li.active a {
+    font-family: 'Red Hat Display';
+      background-color: #354733;
+      color: #fff;
+      font-size: 16px;
+  }
+
+
+/* ---------------------Testimonials ------- */
+
+.testimonial-title h2{
+
+        font-family: lora;
+        font-weight: 500;
+        color: #354733;
+        font-size: 40px;
+        margin-bottom: 129px;
+        text-align: center;
+  
+}
+
+.client-box .image-container {
+    text-align: left;
+}
+
+.client-box h3 {
+    margin: 17px 0px;
+}
+
+.testimonials-box {
+    padding: 34px 6px;
+}
+
+  .testimonials-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+  }
+
+  .testimonials-box{
+    width: 50%;
+  }
+
+  .testimonials-box:first-child{
+    background-color: #DDDEA0;
+    
+  }
+  .testimonials-box:nth-child(2){
+    background-color: #8A9B6E80;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+
+  .client-box img.responsive-image {
+    width: 77px;
+}
+
+
+
+/* ---------------------Testimonials Slider------- */
+.testimonials-box {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease;
+}
+
+.testimonial {
+    flex: 0 0 100%;
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-dots {
+    text-align: left;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #888;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #3498db;
+}
+
+.carousel-arrows {
+    display: flex;
+    justify-content: end;
+}
+
+.prev-button, .next-button {
+
+    background-color: #354733;
+    color: #DDDEA0;
+    font-size: 27px;
+    cursor: pointer;
+    padding: 12px 23px;
+}
+
+/* ---------------------Testimonials Slider------- */
+
+
+/* --------------------join-network------------------- */
+
+.join-network-container{
+    background-color: #354733;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.join-network h2{
+font-family: 'lora';
+font-weight: 500;
+font-size: 40px;
+color: #FCFCFC;
+}
+
+.join-network p{
+color: white;
+font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+margin: 40px 0px;
+}
+
+.register-architect{
+    background-color: #DDDEA0;
+    color: #354733;
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 500;
+padding: 25px 50px;
+border-radius: 2px;
+
+display: inline-block;
+
+
+}
+
+
+.register-architect:hover{
+    color:#354733 ;
+    text-decoration: none;
+}
+
+/* --------------------join-network END------------------- */
+
+
+
+/* ----------------------Footer START----------------  */
+
+
+
+/* Add specific styles for the footer elements */
+.main-footer {
+    background-color: #354733;
+    color: #8A9B6E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.footer-column {
+    width: 15%;
+    padding: 10px;
+}
+.footer-column:first-child{
+    width: 40%;
+}
+
+
+.logo img {
+    max-width: 100%;
+}
+
+.footer-icon{
+    margin-right: 20px;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+.footer-column .logo h2{
+    color: white;
+}
+
+ul.footer-list li {
+    padding-bottom: 8px;
+}
+
+ul.footer-list li a:hover {
+  text-decoration: none;
+}
+
+.footer-list li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F0F1EE;
+    font-family: 'Red Hat Display';
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+}
+
+.sub-footer {
+    text-align: right;
+    background-color: #354733;
+    color: #8A9B6E;
+    border-top: 1px solid #BDBDBD;
+    padding: 10px 67px;
+    font-family: 'Red Hat Display';
+}
+
+
+
+
+
+/* ----------------------Footer END----------------  */
+
+
+
+
+/* ------------------Session Detail page css Start -------------- */
+
+
+.session-container h2{
+    font-family: lora;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    font-size: 40px;
+
+}
+.session-container{
+    width: 100%;
+}
+
+.session-container p{
+font-size: 16px;
+    font-family: 'Red Hat Display';
+    text-align: left;
+    font-weight: 400;
+    color: #808276;
+}
+
+.session-faq {
+    width: 85%;
+}
+
+.accordion-item {
+    margin-bottom: 30px;
+    padding: 12px 0px;
+    border-radius: 8px !important;
+    border: 1px solid #B8B8B8!important;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    border-color: transparent !important;
+}
+.accordion-button{
+    font-size: 20px !important;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    color: #808276 !important;
+}
+
+
+.accordion {
+   
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 0%) !important;
+
+}
+
+
+.accordion-txt p{
+
+color:  #354733 ;
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.accordion-txt h2{
+color:  #808276;
+font-family: 'Red Hat Display';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin: 18px 0px 27px 0px;
+}
+
+.steps-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project-title{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-type{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59px;
+
+}
+
+.project-title input{
+
+border-radius: 4px;
+border: 1px solid #D6D6D6;
+
+background: #F5F5F5;
+padding: 16px 0px 13px 24px;
+}
+
+
+.project-select{
+    width: 25%;
+}
+
+.project-fields{
+   
+border-radius: 4px;
+border: 1px solid #D6D6D6;
+display: flex;
+background: #F5F5F5;
+justify-content: space-between;
+padding: 16px 16px 13px 15px;
+flex-wrap: wrap;
+}
+
+.project-fields select {
+    background: transparent !important;
+    border: none;
+    color:  #BDBDBD;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+.Project-Breif{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+
+.Project-Breif input{
+
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    
+    background: #F5F5F5;
+    padding: 16px 0px 57px 24px;
+    }
+    
+    .continue-btn{
+       
+        width: 100%;
+        display: flex;
+        text-align: right;
+        justify-content: end;
+        margin-top: 15px;
+    }
+
+     .continue-btn a{
+        padding: 14px 71px 13px 72px;
+        border-radius: 4px;
+    background: #354733;
+    color: #FCFCFC;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 400;
+     }
+
+     .continue-btn a:hover{
+        color: #FCFCFC;
+     }
+
+     .location-field{
+        width: 50%;
+        position: relative;
+
+
+     }
+
+     .location-field img{
+        position: absolute;
+        top: 46px;
+        left: 19px;
+        z-index: 9999;
+     }
+
+     .location-field select{
+        position: relative;
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #D6D6D6;
+        background: #F5F5F5;
+        padding: 16px 0px 18px 70px;
+        color: #000;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+     }
+
+     .Expertise-container{
+       
+        width: 100%;
+        margin-top: 20px;
+
+    
+     }
+
+     .Expertise{
+        
+margin-right: 10px;
+padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    background: #F5F5F5;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+     }
+
+     .exp-row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .service-cont{
+        width: 30%;
+     }
+
+     .Addition-interests-cont{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        width: 100%;
+        margin-top: 20px;
+     }
+
+     .interests-field{
+        border-bottom: 1px solid #D6D6D6;
+        margin-bottom: 15px;
+
+     }
+
+      .interests-field input{
+     color: #C5C5C5;
+     background-color: #ff000000;
+     border: none;
+     padding-bottom: 10px;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 90%;
+}
+
+     .Addition-interests-cont{
+        border-radius: 4px;
+        border: 1px solid #D6D6D6;
+        
+        background: #F5F5F5;
+
+     }
+
+.interests-txt span{
+    border-radius: 32px;
+    background: #CECECE;
+    padding: 12px;
+    color: #565656;
+    font-family: Red Hat Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.continue-btn-cont{
+       
+    width: 100%;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+ .continue-btn2 a{
+    padding: 14px 71px 13px 72px;
+    border-radius: 4px;
+background: #354733;
+color: #FCFCFC;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 400;
+ }
+
+ .back-btn a{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+ }
+
+ .back-btn a img{
+    margin-right: 12px;
+ }
+
+ .back-btn a:hover {
+    color: #000;
+
+ }
+
+ .continue-btn2 a:hover{
+    color: #FCFCFC;
+ }
+
+ .interests-txt> *:not(:first-child){
+    border-top: 1px solid #D6D6D6;
+    padding-top: 10px;
+ }
+
+ .file-to-show{
+    margin-bottom: 15px;
+    position: relative;
+ }
+
+ .file-to-show p{
+    color: #565656;
+display: inline;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+ }
+
+ #file-input {
+ 
+    opacity: 0;
+
+  }
+
+  .interests-field p{
+
+    top: 4px;
+    left: 33px;
+    position: absolute;
+  color:  #BDBDBD;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.file-upld{
+    position: relative;
+}
+
+.row .look-btn {
+    width: 100%;
+    display: flex;
+    text-align: right;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+
+
+.row .look-btn a {
+    padding: 14px 33px 13px 39px;
+    border-radius: 4px;
+    background: #354733;
+    color: #FCFCFC;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------Architect-list CSS Start -------------- */
+
+
+.breadcrumbs p{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+
+.breadcrumbs h2{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.row .filter-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#filter-box1{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 29px;
+    align-items: center;
+}
+
+
+
+#filter-box1 input{
+    width: 25%;
+    padding: 16px 56px 13px 24px;
+    border-radius: 4px;
+border: 1px solid #D6D6D6;
+
+background: #FFF;
+}
+
+.filter-select{
+    width: 20%;
+}
+
+.filter-select select{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    width: 100%;
+    border-radius: 4px;
+border: 1px solid #D6D6D6;
+padding: 12px 18px;
+background: #F1F2EF;
+
+}
+
+
+#filter-box2{
+    display: flex;
+    justify-content: end;
+    width: 10%;
+}
+
+#filter-box2 .filter-select a{
+    color: #000;
+display: block;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+        width: 100%;
+        border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    padding: 12px 18px;
+    background: #F1F2EF;
+  
+}
+
+#filter-box2 .filter-select{
+    width: 100%;
+    position: relative;
+}
+
+
+
+.row .architect-cards-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.architect-cards{
+    border-radius: 8px;
+border: 1px solid #B8B8B8;
+background: #FFF;
+    margin-right: 29px;
+    margin-top: 30px;
+    width: 31%;
+
+}
+
+.architect-card-img{
+    padding: 10px;
+}
+
+.arch-card-name {
+    display: flex;
+}
+
+.arch-name {
+    width: 90%;
+    display: flex;
+    padding: 10px 1px 10px 18px;
+}
+
+.arch-level {
+    width: 30%;
+}
+
+
+.arch-name2 p {
+    color: #6B7387;
+    font-family: Red Hat Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    display: inline;
+}
+
+.arch-name2 {
+    margin-left: 10px;
+}
+
+.arch-level p{
+    padding: 7px 18px 6px 12px;
+    background: #5E8A7A;
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.arch-name2 h3{
+
+color: #1F242F;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+.arch-card-price p{
+    color: #6B7387;
+display: inline;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+margin-right: 8px;
+}
+
+.price-span{
+    color: #353C4B;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+}
+
+.arch-card-price-cont {
+    padding: 0px 18px;
+   
+}
+
+.arch-card-exp p{
+    color: #6B7387;
+display: inline;
+text-align: right;
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.exp-year{
+    color: #000;
+
+text-align: right;
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+}
+
+.arch-card-price {
+    width: 80%;
+}
+
+.arch-card-exp {
+    width: 20%;
+}
+
+.arc-card-url a{
+    color: #0571ED;
+
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.arch-card-price-box{
+    display: flex;
+    align-items: center;
+}
+
+.arc-card-location p{
+    color: #AFB7CD;
+display: inline;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.arch-card-book-available p{
+    color: #787878;
+    margin-bottom: 1px;
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+   
+.arch-card-book-available h3{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.arch-card-book-cont{
+padding: 19px;
+}
+
+.arch-card-book-box{
+    padding: 13px 16px 13px 24px;
+border-radius: 4px;
+background: #F5F5F5;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.arch-card-book-btn a{
+    padding: 10px 40px;
+    color: #FFF;
+
+font-family: Red Hat Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+border-radius: 4px;
+background: #354733;
+}
+
+.arch-card-book-btn a:hover{
+    color: #FFF;
+}
+
+.row .arch-card-view-btn a{
+    padding: 15px 46px 14px 46px;
+    border-radius: 4px;
+
+color: #FFF;
+background: #354733;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.row .arch-card-view-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 26px 0px;
+}
+
+.arch-policy{
+    color: #808276;
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+
+
+/* ------------------Architect-list CSS END-------------- */
+
+
+
+
+
+/* ------------------Architect-profile CSS Start-------------- */
+
+.cover-image {
+    position: relative;
+    width: 100%; 
+    max-height: 400px; 
+    overflow: hidden; 
+    background: #333; 
+}
+
+
+.cover-image img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+@media (max-width: 768px) {
+    .cover-image {
+        max-height: 300px; 
+    }
+}
+
+
+section.sections.secnewpad {
+    padding-top: 33px;
+    padding-bottom: 43px;
+    background: #FFF;
+}
+
+#pro-name h3{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+}
+
+#pro-name p{
+    color: #666;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+#pro-name span{
+    color: #787878;
+display: inline;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.top-rated p , .pro-level p{
+    color: #787878;
+display: inline;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-cons-btn{
+    padding: 14px 29px 14px 30px;
+    border-radius: 2px;
+background:  #8A9B6E;
+color: #FFF;
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.row .profile-name-cont {
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+
+div#pro-name {
+    width: 40%;
+    margin-left: 51px;
+    margin-right: 180px;
+}
+
+.pro-lvl-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div#pro-cons-btn-cont {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.row .pro-details-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pro-detail-box1{
+    width: 63%;
+    border-radius: 8px;
+    border: 1px solid #B8B8B8;
+    background: #FFF;
+    padding: 23px 32px;
+}
+
+.pro-detail-box2{
+    width: 33%;
+    border-radius: 8px;
+    border: 1px solid #B8B8B8;
+    background: #FFF;
+}
+
+.pro-details-abt-cont h4{
+    color:  #354733;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 24px;
+}
+
+.pro-details-abt-cont p{
+    color: var(--brand-text-colour, #808276);
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.basic-lit-txt{
+    color: #808276;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.basic-age, .basic-skills{
+    color: #000;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+
+.pro-details-abt-cont {
+    padding-bottom: 23px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.pro-details-basic-info-cont {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+.pro-cons-btn:hover{
+    color: #FFF;
+}
+
+
+.basic-lit-green{
+    color: #8A9B6E;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+}
+
+.pro-details-charges-cont {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 23px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.pro-details-exp-title h3{
+    color: #354733;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-exp h3, .pro-details-edu h3{
+    color: #000;
+
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.pro-details-exp p, .pro-details-edu p{
+    color: #808276;
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-exp-cont {
+    width: 50%;
+}
+
+
+.pro-details-exp-edu-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro-details-exp-title {
+    margin-bottom: 30px;
+}
+
+
+.pro-details-exp-cont > *:not(:first-child):not(:nth-child(2)) {
+    border-top: 1px solid #D6D6D6;
+    padding-top: 10px;
+}
+
+
+.nav-tabs>li>a{
+    color: #808276;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+.nav-tabs>li.active>a {
+    color: var(--brand-dark-olive, #354733);
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-tabs>li {
+    border-radius: 4px;
+    background: #F9F9F9;
+    width: 33%;
+}
+
+.tab-content {
+    padding: 16px 19px;
+}
+
+li.pro-plan-lists {
+    margin: 21px 0px;
+}
+
+.pro-details-portfolio-boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro-details-portfolio-images-box{
+    width: 29%;
+}
+
+
+
+.pro-details-portfolio-images-box {
+    width: 29%;
+    margin-right: 40px;
+}
+
+div#pro-portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pro-portfolio-grid .image-container {
+    width: 50% ;
+    padding: 4px 8px;
+}
+
+.row .pro-details-portfolio-cont h3 {
+    margin-bottom: 28px;
+    color: #354733;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.pro-details-portfolio-link h3{
+    color: var(--brand-dark-olive, #354733);
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-review-title h3{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-review-profile h3{
+    color: var(--brand-dark-olive, #354733);
+font-family: Red Hat Display;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-review-profile p{
+    color: var(--brand-text-colour, #808276);
+font-family: Red Hat Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro-details-review-profile {
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro-details-review-title {
+    margin-bottom: 28px;
+}
+
+.row .pro-details-review-cont {
+    width: 50%;
+}
+
+section.lesspad.sections{
+    padding: 33px 0px;
+}
+
+.pro-details-review-box {
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 28px 0px;
+}
+
+.pro-details-review-view-btn a{
+    color: var(--brand-dark-olive, #354733);
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline !important;
+}
+
+.pro-details-review-view-btn {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* ------------------Architect-profile CSS END-------------- */
+
+
+
+
+/* ------------------Singup CSS Start-------------- */
+
+
+section.sections.signupsec1{
+    width: 40%; 
+    background:  #8A9B6E;
+    height: 100vh;
+}
+
+#signupbox1 h3{
+    color: var(--brand-dark-olive, #354733);
+font-family: Red Hat Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+}
+
+#signupbox1 p{
+    color: #FFF;
+
+font-family: Sarpanch;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-top: 61px;
+    margin-bottom: 150px;
+}
+
+#signupbox1 a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 17px 2px;
+    color: #FFF;
+    border-radius: 4px;
+    background: #353535;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+
+.row .signup-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.sections.signupsec2{
+width: 60%;
+background: #FFF;
+height: 100vh;
+
+}
+
+
+#signupbox2 h3{
+    color: #000;
+
+font-family: Lora;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+}
+
+#signupbox2 p{
+    color: var(--brand-text-colour, #808276);
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container.signup-cont-1{
+    overflow: hidden;
+    width: 100% !important;
+}
+
+
+.main-cont-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.signup-form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signup-form-box label {
+    color: #000;
+    font-family: Red Hat Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.signup-form-box input[type="text"] {
+    padding: 14px 18px 13px 18px;
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    background: #F5F5F5;
+    margin-bottom: 34px;
+}
+
+
+
+.signup-form-box input[type="submit"] {
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #353535;
+    padding: 17px 0px;
+}
+
+
+
+.signup-or-txt p{
+    color: #999;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin: 0px 30px;
+}
+
+.signup-or-divider{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    margin: 34px 0px;
+}
+
+.divider-signup{
+    width: 159px;
+height: 1px;
+background: #DFDFDF;
+}
+
+.google-signup-cont a{
+    border-radius: 4px;
+background: #4285F4;
+padding: 12px 93px 13px 93px;
+color: #FFF;
+text-align: center;
+    display: block;
+    width: 100%;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.google-signup-cont a:hover{
+    color: #FFF;
+}
+
+
+.google-signup-cont a img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 4px;
+    background: #FFF;
+    margin-right: 13px;
+}
+
+
+
+
+
+
+/* ------------------Singup CSS END-------------- */
+
+
+
+
+/* ------------------Booking-Consultation CSS Start------------ */
+
+
+
+.row .booking-cont-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.booking-box{
+    border-radius: 8px;
+border: 1px solid #B8B8B8;
+padding-top: 28px ;
+background: #FFF;
+}
+
+#booking-box1{
+    width: 25%;
+}
+
+#booking-box2{
+    width: 70%;
+}
+
+.booking-heading h3{
+    color: var(--brand-dark-olive, #354733);
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+padding-bottom: 6px;
+}
+
+.booking-heading{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F1F1F1;;
+}
+
+.booking-profile-img-box {
+    margin-right: 17px;
+}
+
+.booking-profile-name-box h3{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+
+.booking-profile-name-box p{
+    display: inline;
+    color: #666;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+.booking-profile-img {
+    display: flex;
+}
+
+span.booking-date, span.booking-time, span.booking-duration  {
+    color:  #2F2F2F;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.booking-date-time-cont {
+    margin: 16px 0px;
+}
+
+.booking-duration-cont{
+margin-top: 16px;
+padding-bottom: 16px;
+border-bottom: 4px dotted #F1F1F1;
+margin-bottom: 24px;
+}
+
+.Consulting-fees, .Platform-charges, .Record-meeting{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Consulting-fees p, .Platform-charges p, .Record-meeting p{
+display: inline;
+color: #000;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+p.constfee, p.platfee, p.recordfee{
+    color: #666;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+.booking-heading, .booking-profile-img, .booking-date-time-cont, .booking-duration-cont, .Consulting-fees, .Platform-charges, .Record-meeting{
+    padding: 0px 16px;
+}
+
+p.total-pay-price{
+    color: #000;
+
+text-align: right;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+.Total-payable-cont{
+    margin-top: 40px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+justify-content: space-between;
+padding: 0px 16px;
+padding-top: 20px;
+background: #8A9B6E;
+
+}
+
+.Consulting-fees {
+    margin-top: 50px;
+}
+
+.Total-payable-cont p{
+    color: #000;
+display: inline;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+p.arch-policy {
+    padding-top: 38px;
+}
+
+#booking-box2 .booking-heading h3{
+    text-align: center;
+}
+
+
+h3.online-book{
+    color: #000;
+padding: 14px 16px;
+font-family: Red Hat Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+
+
+
+.date-slot-box p{
+    color: #000;
+    margin-bottom: 13px;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+p.date-slot-lit-color{
+    color:  #808276;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.online-booking-date-slot-cont{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    flex-wrap: wrap;
+}
+
+
+.date-slot-box, .time-slot-box{
+    text-align: center;
+    width: 14%;
+    border-radius: 8px;
+border: 1px solid #B8B8B8;
+padding: 16px 0px;
+box-shadow: 0px 1px 6px 0px #E0E0E0;
+cursor: pointer;
+
+}
+
+
+
+
+.date-slot-box.selected {
+    background-color: #8A9B6E;
+}
+
+
+.date-slot-box.selected p {
+    color: white;
+}
+
+
+p.time-slot-txt{
+    color: #000;
+
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+
+.time-slot-box {
+    padding-bottom: 0px;
+   
+}
+
+.time-slot-box.selected {
+    background-color: #8A9B6E;
+}
+
+
+.time-slot-box.selected p {
+   color: white;
+}
+
+
+a.proceed-to-pay{
+    border-radius: 4px;
+background: var(--brand-dark-olive, #354733);
+
+color: #FFF;
+padding: 14px 94px;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+a.proceed-to-pay:hover{
+    color: #FFF;
+}
+
+.proceed-to-pay-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+
+
+
+
+
+
+/* ------------------Booking-Consultation CSS END------------ */
+
+
+/* ------------------Session Detail page css END -------------- */
+
+
+  @media(max-width:1000px){
+
+    div#pro-img img {
+        width: 158px;
+    }
+
+    div#pro-cons-btn-cont {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    div#pro-name, .Expertise, #filter-box2 .filter-select, .architect-cards,.pro-details-exp-cont, .pro-detail-box1, .pro-detail-box2, .pro-details-portfolio-images-box, #pro-portfolio-grid .image-container, #booking-box1, #booking-box2  {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+    .row .pro-details-review-cont{
+        margin-top: 20px;
+        width: 100% !important;
+    }
+
+    div#pro-name {
+       
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+ 
+
+    .location-field,#filter-box1, .filter-select, #filter-box2, #filter-box1 input, #filter-box2 .filter-select select,  #filter-box2 .filter-select a, section.sections.signupsec1  {
+        width: 100%;
+    }
+
+    .project-type {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .project-select{
+    margin-bottom: 29px;
+}
+
+    .project-title, .project-select, section.sections.signupsec2 {
+        width: 100%;
+    }
+
+    section.sections.signupsec1, section.sections.signupsec2{
+        height: auto;
+    }
+
+    .row .session-faq {
+        width: 100% ;
+    }
+
+    .row .footer-column, .footer-column:first-child  {
+        width: 100%;
+    }
+
+    .row .testimonials-box{
+        width: 100%;
+      }
+
+      .row .how-work-box{
+        width: 100%;
+       margin-bottom: 20px;
+        
+    }
+    
+
+    .row .heroleft, .row .aboutleft {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0px 20px;
+    }
+    
+    .row .heroright  {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .row .aboutright {
+        width: 100%;
+        padding: 0px 20px;
+
+    }
+
+
+    .logo {
+      display: inline-block;
+      width: 78%;
+      padding: 10px 10px 10px 0px;
+  }
+  .mob-menu {
+      display: inline-block;
+      width: 20%;
+  }
+  .mob-menu span {
+      border: solid 2px #78866B;
+      display: block;
+      text-align: center;
+      border-radius: 4px;
+      padding: 2px 6px;
+      width: 50px;
+      color: #354733;
+      font-size: 25px;
+      cursor: pointer;
+  } 
+  .main-menu {
+    display: flex;
+    align-items: center;
+      margin: 0px 0px 20px 0px;
+      float: left;
+      background-color: #f1f1f1;
+      width: 100%;
+      display: none;
+  } 
+  .main-menu ul {
+      list-style: none;
+      padding-left: 0px;
+      margin-bottom: 0px;
+      width: 100%;
+  }
+    .main-menu ul.right-nav {
+      text-align: center;
+      margin-top: 6px;
+  }
+  ul.right-nav {
+      margin-bottom: 10px;
+  }
+  .main-menu {
+      margin: 0px 0px 20px 0px;
+      float: left;
+      background-color: #f1f1f1;
+      width: 100%;
+      display: none;
+  }
+  .main-menu ul li {
+      display: block;
+      width: 100%;
+      margin: 0px;
+  }
+   .nav li:first-child {
+      margin-left: 0px;
+  }
+  .main-menu ul li a {
+    font-family: 'Red Hat Display';
+      padding: 10px 15px;
+      display: block;
+      border-bottom: solid 1px #e2e4e6;
+      text-align: center;
+  }
+   .main-menu ul.right-nav li {
+
+      margin-left: 0px;
+      margin-right: 30px;
+      display: inline-block;
+      width: 150px;
+  }
+   .main-menu ul.right-nav li a {
+      font-size: 18px !important;
+  }
+  }
+     
+
+
+
+  @media(min-width:1190px){
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25% !important;
+    }
+    .col-xl-9 {
+        flex: 0 0 auto;
+        width: 75% !important;
+    }
+  }
+
+  @media(min-width:1201px){
+    .container {
+        width: 1304px !important;
+    }
+  }
+
+
+  @media(max-width:760px){
+    .online-booking-date-slot-cont{
+        justify-content: start;
+    }
+
+    .date-slot-box, .time-slot-box {
+        margin-right: 25px;
+        margin-bottom: 26px;
+        width: 25%;
+    }
+
+  }
+

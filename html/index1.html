@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/index1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header style="width: 100%;" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">Archestra</a>
+            
+                <!-- Offcanvas for small screen -->
+                <div class="off-screen">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-chevron-double-right"></i></button>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Main Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                <div class="offcanvas-body ">
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-grid-1x2-fill'></i>
+                                <h6>Overview</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-calendar'></i>
+                                <h6>Bookings</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-file-earmark'></i>
+                                <h6>Contract&Doc's</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-buildings'></i>
+                                <h6>Projects</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-receipt'></i>
+                                <h6>Invoice</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-wallet'></i>
+                                <h6>Pyament</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-bell'></i>
+                                <h6>Clients</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-file-person'></i>
+                                <h6>Architect</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-gear-wide-connected'></i>
+                                <h6>Settings</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-gear-wide-connected'></i>
+                                <h6>Logout Account</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <h2 class="bi bi-bell"></h2>
+                    <p><img style="border-radius: 50%; height: 40px;" src="../img/Admin.png" alt=""></p>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- Sidebar -->
+
+    <div class="sidebar col-lg-2 col-md-2 col-12">
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-grid-1x2-fill'></i>
+                <h6>Overview</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-calendar'></i>
+                <h6>Bookings</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-file-earmark'></i>
+                <h6>Contract&Doc's</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-buildings'></i>
+                <h6>Projects</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-receipt'></i>
+                <h6>Invoice</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-wallet'></i>
+                <h6>Pyament</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-bell'></i>
+                <h6>Clients</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-file-person'></i>
+                <h6>Architect</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Settings</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Logout Account</h6>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="main11">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div class="card  mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title ">Number of Registered User</h5>
+                        <p class="card-text">35</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title">On Going Projects</h5>
+                        <p class="card-text">05</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliveralbe Projects</h5>
+                        <p class="card-text">07</p>
+                        <button class="btn btn-success view">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Earnings</h5>
+                        <p class="card-text">09</p>
+                        <button class="btn btn-success view">View</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Details Table -->
+            <div class="col">
+                <table class="table">
+                    <thead class="table-success">
+                        <h2>Project Details</h2>
+                      <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Project ID</th>
+                        <th scope="col">Client Name</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">End Date</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Shanthi Nivas</th>
+                        <td>111</td>
+                        <td>Shanthi</td>
+                        <td><img class="img-table" src="../img/Admin.png" alt=""></td>
+                        <td>12/12/2023</td>
+                        <td>Revise</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Shanthi Nivas</th>
+                        <td>222</td>
+                        <td>Shanthi</td>
+                        <td><img class="img-table" src="../img/Admin.png" alt=""></td>
+                        <td>12/12/2023</td>
+                        <td>Revise</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Shanthi Nivas</th>
+                        <td>333</td>
+                        <td>Shanthi</td>
+                        <td><img class="img-table" src="../img/Admin.png" alt=""></td>
+                        <td>12/12/2023</td>
+                        <td>Revise</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <!-- Deliveralbe Details Table -->
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead class="table-success">
+                        <h2>Deliveralbe Details</h2>
+                        <tr>
+                          <th scope="col">Project Name</th>
+                          <th scope="col">Deliveralbes</th>
+                          <th scope="col">Phase</th>
+                          <th scope="col">Admin Status</th>
+                          <th scope="col">Client Status</th>
+                          <th scope="col">Invoice</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Shanthi Nivas</th>
+                          <td><a href="#">view profile</a></td>
+                          <td>Pre Design</td>
+                          <td><img src="../img/tick.png" alt="" width="42px" height="41px">
+                              <img src="../img/return.png" alt=""width="39px" height="41px"></td>
+                          <td class="text-dark text-center"><div class="invoice">Pending</div></td>
+                          <td class="btn text-light text-center"><div class="invoice">Upload Invoice</div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shanthi Nivas</th>
+                            <td><a href="#">view profile</a></td>
+                            <td>Schematic Design</td>
+                            <td class="text-success on-approve">
+                                <div class="approve">Approved</div></td>
+                            <td class="text-success on-approve">
+                                <div class="approve">Approved</div></td>
+                            <td class="btn text-dark text-center"><div class="invoice">Upload Invoice</div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shanthi Nivas</th>
+                            <td><a href="#">view profile</a></td>
+                            <td>Design Development</td>
+                            <td class="text-success on-approve">
+                                <div class="approve">Approved</div></td>
+                            <td class="text-danger on-revise">
+                                <div class="revise">Revise</div></td>
+                            <td class="btn text-light text-center"><div class="invoice">Upload Invoice</div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shanthi Nivas</th>
+                            <td><a href="#">view profile</a></td>
+                            <td>Construction Documents</td>
+                            <td class="text-success on-approve">
+                                <div class="approve">Approved</div></td>
+                            <td class="text-danger on-revise">
+                                <div class="revise">Revise</div></td>
+                            <td class="btn text-light text-center"><div class="invoice">Upload Invoice</div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

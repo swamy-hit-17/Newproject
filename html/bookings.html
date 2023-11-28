@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .history{
+        margin-left: -16px;
+    }
+    .column{
+        margin-left: 30px;
+    }
+    @media screen and (max-width:430px) {
+        .history{
+            margin-left: 16px;
+        }
+        .column{
+            width: fit-content;
+        }
+    }
+  </style>
+</head>
+  <body>
+    <div class="row">
+        <div class="col-12">
+            <!-- ############## Column 1 ############## -->
+            <div class="row">
+                <div class="col">
+                    <h4 class="m-3">Bookings</h4>
+                    <button class="btn btn-success float-end" style="margin-top: -45px; margin-right: 35px;">New Meeting</button>
+                </div>
+            </div><br>
+            <!-- ############## Table ############## -->
+            <div class="row m-3">
+                <div class="col-lg-2 col-sm-12 border bg-success-subtle text-center m-3">
+                    <p>Upcoming</p>
+                </div>
+                <div class="col-lg-2 col-sm-12 border bg-body-secondary text-center my-3 history">
+                    <p>History</p>
+                </div>
+            </div>
+            <!-- ############## Column Data ############## -->
+            <div class="row">
+                <div class="col" style="overflow: auto;">
+                    <div class="container text-center border column" >
+                        <div class="row align-items-center">
+                            <div class="col-lg-1 col-sm-3">
+                                <img src="../img/date.png" alt="">
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                               <h6> Architect Design Discussion </h6><p> Fri 29 sep 2023 2pm-3pm</p>
+                            </div>
+                            <div class=" col">
+                               <h6 style="margin-top: 29px;"><img src="../img/Admin.png" style="border-radius: 50%;" height="40px" alt="">
+                               Ramesh Sharma</h6> <p style="margin-top: -15px;"> Architect</p>
+                            </div>
+                            <div class="col-sm-12 col-lg-2">
+                                <button class="btn  btn-success">View</button><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+             <!-- ############## Column Data ############## -->
+             <div class="row">
+                <div class="col" style="overflow: auto;">
+                    <div class="container text-center border column" >
+                        <div class="row align-items-center">
+                            <div class="col-lg-1 col-sm-3">
+                                <img src="../img/date.png" alt="">
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                               <h6> Architect Design Discussion </h6><p> Fri 29 sep 2023 2pm-3pm</p>
+                            </div>
+                            <div class=" col">
+                                <h6 style="margin-top: 29px;"><img src="../img/Admin.png" style="border-radius: 50%;" height="40px" alt="">
+                                Chotta Beam</h6> <p style="margin-top: -15px;"> Architect</p>
+                             </div>
+                            <div class="col-sm-12 col-lg-2">
+                                <button class="btn  btn-success">View</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

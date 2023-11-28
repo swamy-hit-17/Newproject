@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contracts</title>
+    <link rel="stylesheet" href="../css/index3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header -->
+    <header style="width: 100%;" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">Archestra</a>
+            
+                <!-- Offcanvas for small screen -->
+                <div class="off-screen">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-chevron-double-right"></i></button>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Main Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                <div class="offcanvas-body ">
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-grid-1x2-fill'></i>
+                                <h6>Overview</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-calendar'></i>
+                                <h6>Bookings</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-file-earmark'></i>
+                                <h6>Contract&Doc's</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-buildings'></i>
+                                <h6>Projects</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-receipt'></i>
+                                <h6>Invoice</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-wallet'></i>
+                                <h6>Pyament</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-bell'></i>
+                                <h6>Clients</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-file-person'></i>
+                                <h6>Architect</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-gear-wide-connected'></i>
+                                <h6>Settings</h6>
+                            </div>
+                        </a>
+                        <a href="#" style="color: gray;">
+                            <div class='nav nav-option1'>
+                                <i class='bi bi-gear-wide-connected'></i>
+                                <h6>Logout Account</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <h2 class="bi bi-bell"></h2>
+                    <p><img style="border-radius: 50%; height: 40px;" src="../img/Admin.png" alt=""></p>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar col-lg-2 col-md-2 col-12">
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-grid-1x2-fill'></i>
+                <h6>Overview</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-calendar'></i>
+                <h6>Bookings</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-file-earmark'></i>
+                <h6>Contract&Doc's</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-buildings'></i>
+                <h6>Projects</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-receipt'></i>
+                <h6>Invoice</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-wallet'></i>
+                <h6>Pyament</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-bell'></i>
+                <h6>Clients</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-file-person'></i>
+                <h6>Architect</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Settings</h6>
+            </div>
+        </a>
+        <a href="#" style="color: gray;">
+            <div class='nav nav-option1'>
+                <i class='bi bi-gear-wide-connected'></i>
+                <h6>Logout Account</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="main">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <h3>Documents</h3>
+                <br>
+                <br>
+                &nbsp;
+                <table>
+                    <tr><i class="bi bi-file-earmark "></i> Contracts</tr><br><br>
+                    <tr><i class="bi bi-journals"></i>Project Documents</tr>
+                </table>
+            </div>
+
+            <div class="col">
+                <h4>Document Management / Contract</h4><br><br>
+                <h4>Contract Status</h4>
+                <div class="input-group mb-3" style="float: right;">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                <div class="col-lg-6 col-sm-12"></div>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for table header */
+    .custom-table thead th {
+      background-color: darkolivegreen; /* Header background color */
+      color: #fff; /* Header text color */
+    }
+  </style>
+  <title>Bootstrap Table Header Customization</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <table class="table custom-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Doe</td>
+          <td>jane@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .custom-input-group {
+      position: relative;
+      display: inline-flex;
+    }
+
+    .custom-input-group .btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .form-control {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  </style>
+  <title>Input Group with Buttons</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="custom-input-group">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with two button addons">
+      <button class="btn" type="button"><i class="bi bi-paperclip"></i></button>
+      <button class="btn" type="button"><i class="bi bi-emoji-smile"></i></button>
+      <button class="btn" type="button"><i class="bi bi-send"></i></button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

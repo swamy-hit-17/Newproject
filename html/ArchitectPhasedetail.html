@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phase Basic Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    body{
+        background-color: #f5f5f5;
+        font-family: red hat display;
+    }
+    .box{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 10px;
+       
+    }
+    .on-go{
+        height: 30px;
+        width: 100px;
+        border: 1px solid #FFE690;
+        background-color: #FFE690;
+        border-radius: 7px;
+        margin-top: 61px;
+    }
+    .on-going{
+        height: 30px;
+        width: 100px;
+        border: 1px solid gray;
+        background-color: gray;
+        border-radius: 7px;
+    }
+    .opaciti{
+        opacity: 0.5;
+        background-color: black;
+    }
+    .save{
+        margin-top:-25px;
+    }
+    .pay{
+        height: 30px;
+        width: 160px;
+        background-color: #DFFFDC;
+        border-radius: 10px;
+        text-align: center;
+    }
+            /* Style the tab */
+        .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+        /* border-bottom: #8A9B6E; */
+        border-bottom: 5px solid #8A9B6E;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+        background-color: #fff;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 10px;
+        }
+       
+        @media only screen and (max-width: 430px) {
+            .texting{
+                width: fit-content;
+            }
+            .go-flow{
+                flex-direction: column;
+            }
+            .tab{                
+                gap: 0px;
+                flex-direction: column;
+            }
+            .save{
+                margin-top: 0px;
+            }
+            .box{
+                width: 100%;
+            }
+            .tables{
+                overflow: scroll;
+            }
+            .badge{
+                margin: -79px;
+            }
+        }
+
+  </style>
+</head>
+
+  <body >
+   <div class="row m-2">
+    <div class="col-lg-12 col-sm-12 ">
+          &nbsp;
+        <!-- ############## Phases ############## -->
+        <div class="row m-3">
+            <h3>Project Phases</h3>
+            <!-- ############## first content ############## -->
+            <div class="col-lg-2 col-sm-12 m-3 box  bg-light"><br>
+                <h4 >Shanthi Nivas</h4><br>
+                <h6 >Banglore</h6><br>
+                
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="../img/Emp.png" alt="" style="border-radius: 50%;"height="45px"width="45px">
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <h6 >Ar.Sham</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- ############## second content ############## -->
+            <div class="col-lg-2 col-sm-12 m-3 box"style="background-color: #8A9B6E;">
+                <br>
+                <h5>Pre Design</h5>
+                <br>
+                <div class="on-go ">
+                   <h6 class="text-center " style="color: #F5A623;"> On Going </h6>
+                </div>
+            </div>
+             <!-- ############## third content ############## -->
+             <div class="col-lg-2 col-sm-12 m-3 box opaciti" >
+                <br>
+                <h6>Schematic Design</h6>
+                <h2 >
+                <div class="div text-center "><i class="bi bi-lock "  style="z-index: -1; color: white;"></i></div>
+                </h2>
+                <div class="on-going my-5">
+                   <h6 class="text-center " > Yet to start </h6>
+                </div>
+            </div>
+             <!-- ############## fourth content ############## -->
+             <div class="col-lg-2 col-sm-12 m-3 box opaciti">
+                <br>
+                <h6>Design Development</h6>
+                <h2>
+                <div class="div text-center "><i class="bi bi-lock "  style="z-index: -1; color: white;"></i></div>
+                </h2>
+                <div class="on-going my-5">
+                   <h6 class="text-center ">Yet to start </h6>
+                </div>
+            </div>
+             <!-- ############## fifth content ############## -->
+             <div class="col-lg-2 col-sm-12 m-3 box opaciti">
+                <br>
+                <h6>Construction Document</h6>
+                <h2>
+                <div class="div text-center "><i class="bi bi-lock "  style="z-index: -1; color: white;"></i></div>
+                </h2>
+                <div class="on-going my-5">
+                   <h6 class="text-center ">Yet to start</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- ############## Tabs ############## -->
+        <div class="row m-3">
+            <div class="col-lg-12 col-sm-12">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')">Basic Detail</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Milestones</button>
+                    
+                        <button type="button" class="tablinks btn position-relative" onclick="openCity(event, 'Tokyo')">
+                            Deliverable
+                            <div class=" mt-3 position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class=" ">
+                                    22
+                                    <span class="visually-hidden">unread messages</span>
+                                  </span>
+                            </div>
+                          </button>
+                          
+                          <button type="button" class="tablinks btn position-relative" onclick="openCity(event, 'India')">
+                            Invoice
+                            <div class=" mt-3 position-absolute z-1 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class=" ">
+                                    11
+                                    <span class="visually-hidden">unread messages</span>
+                                  </span>
+                            </div>
+                          </button>
+                </div>
+            <!-- ############## basic detail ############## -->
+                <div id="London" class="tabcontent bg-light">
+                    <div class="float-md-end">
+                        <button class="btn" style="background-color: #1E6918;"><a href="Architect-list.html" style="color: white;"><i class="bi bi-plus-circle-dotted"></i> &nbsp;Add Collaborator</a>
+                        </button>
+                    </div>
+                    <br>
+                    <h3>Phase Description</h3>
+                    <button class="btn float-end text-light bg-secondary save">Save</button>
+                    <br> &nbsp;
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Description</label>
+                    </div>
+                    <hr>
+                    <h4 style="font-weight: 600;">Basic Information</h4><br>
+                    <div class="d-flex go-flow">
+                        <h6 ><b>Start Date :</b><r class="text-secondary">30/10/2023</r></h6> &emsp;&emsp;&emsp;
+                        <h6><b>End Date :</b><r class="text-secondary">30/12/2023</r></h6> &emsp;&emsp;&emsp;
+                        <h6><b>Budget :</b><r class="text-secondary">30,000</r></h6>
+                    </div><br>
+                    <h5><b>Architect Name :</b> <r class="text-secondary">Ar.Sham</r></h5>
+                    <hr><br>
+                    <h3>Roles</h3>
+                    <br>
+                    <h3>Architect Roles</h3>
+                    <br>
+                    <p class="text-secondary">XZY ksvadvfbs fdbdbvdfbdxv dff asfdvsdfv asdvadsfv asdvasdv asdvasdv asdvasdv asdvasdv asdvadsv advdscds csdcsdc sdvdsv asdvasdv asdvasdc asdcsc sdvcadvdv vsdfvfj   scasascascasc .  ijscjbnsc . sdhviv dchascacascas sacascasasacasc ascascasc ascasc cascasdvc savascas ascascadvadvdv acascascsa vdavadvad acadsc sacsacas asvavadv advadvadvad vadvadvzd </p>
+                    <hr><br>
+                    <h3>Client Roles</h3><br>   
+                    <p class="text-secondary">XZY ksvadvfbs fdbdbvdfbdxv dff asfdvsdfv asdvadsfv asdvasdv asdvasdv asdvasdv asdvasdv asdvadsv advdscds csdcsdc sdvdsv asdvasdv asdvasdc asdcsc sdvcadvdv vsdfvfj   scasascascasc .  ijscjbnsc . sdhviv dchascacascas sacascasasacasc ascascasc ascasc cascasdvc savascas ascascadvadvdv acascascsa vdavadvad acadsc sacsacas asvavadv advadvadvad vadvadvzd </p>
+
+                </div>
+                
+            <!-- ############## Milestone ############## -->
+                <div id="Paris" class="tabcontent bg-light"><br>
+                   <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr >
+                                <th scope="col">Name</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">Due Date</th>
+                                <th scope="col">Deliverables</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr >
+                                <td>Project Initiation</td>
+                                <td>07/08/2023</td>
+                                <td>11/12/2023</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Project Initiation</td>
+                                <td>06/07/2023</td>
+                                <td>12/12/2023</td>
+                                <td>1</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            <!-- ############## Deliverable detail ############## -->
+                <div id="Tokyo" class="tabcontent">
+                    <button class="btn float-end text-light" style="background-color: #8A9B6E;">Upload</button>
+                    <br> &nbsp;
+                    <div class="table-responsive">
+                        <table class="table ">
+                            <thead>
+                            <tr>
+                                <th scope="col">Deliverables</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Reviews</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><a href="#" style="color: #000;"> First Floor Drawings</a></td>
+                                <td>24/09/2023</td>
+                                <td>Client  Approval Pending</td>
+                                <td>Revise the drawing increase
+                                    size of Bedroom</td>
+                                <td><button class="btn" style="color: red;"><i class="bi bi-trash3"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" style="color: #000;"> Floor Drawings</a></td>
+                                <td>24/09/2023</td>
+                                <td>Client  Approval Pending</td>
+                                <td>Revise the drawing increase
+                                    size of Bedroom</td>
+                                <td><button class="btn" style="color: red;"><i class="bi bi-trash3"></i></button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            <!-- ############## Budget detail ############## -->
+                <div id="India" class="tabcontent"><br>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>#4321</td>
+                                <td>Milestone Name</td>
+                                <td><a href="#"  style="color: #000;"><i class="bi bi-receipt"></i> View Invoice</a></td>
+                                <td></td>
+                                <td style="color: #1E6918;"><div class="pay">
+                                    Payment Received </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#3124</td>
+                                <td>Milestone Name</td>
+                                <td><a href="#" style="color: #000;"><i class="bi bi-receipt"></i> View Invoice</a></td>
+                                <td><button class="btn "style="background-color:#8A9B6E;">Request</button></td>
+                                <td style="color: #93651A;"><div class="pay" style="background-color: #FFE7BE;">
+                                    Pending </div></td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+         </div>   
+
+
+         <!-- ############## js ############## -->
+         <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
+
+    </div>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
