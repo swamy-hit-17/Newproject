@@ -1,0 +1,252 @@
+.sidebar li a {
+    color: #000 !important;
+}
+
+#side_nav {
+    background: white!important;
+}
+
+.sidebar li.active {
+    background: #8A9B6E !important;
+}
+
+img.imageprofile{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.text-heading{
+    color: #000;
+font-family: Red Hat Display;
+font-style: normal;
+line-height: normal;
+font-weight: 600;
+    font-size: 18px;
+    margin-left: 75px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img.avatar.avatar-sm.rounded-circle.me-2 {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Styles for the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px; /* Adjust the gap between cards as needed */
+    justify-content: center;
+}
+
+/* Styles for individual cards */
+.card {
+display: flex; /* Adjust the width of the cards as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    padding: 16px 57px 15px 16px;
+}
+div#new-card{
+    border-radius: 8px;
+border: 1px solid var(--foundation-grey-grey-100, #D3D3D3);
+background: #8A9B6E;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: white;
+width: 200px;
+height: 150px;
+    position: relative;
+}
+
+a.card-link {
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+#pre-design{
+    background-color: white;
+    width: 200px;
+}
+
+#locked-box {
+    opacity: 0.8;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #4040403b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .lock-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('./lock.svg'); /* Add your lock icon image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  
+  .box-content {
+    margin-top: 10px;
+  }
+
+  .card-title{
+    font-size: 16px;
+  }
+
+.row{
+    margin-top:3%;
+}
+ul.details-tab{
+    display: flex;
+    gap: 101px;
+    margin-top: 3%;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li.overview.active{
+    border-bottom: 4px solid olive;
+    color: olive;
+}
+
+.projectdiscription-andsave{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+
+    
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 177px;
+}
+
+.box{
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 8px;
+    border: 1px solid var(--foundation-grey-grey-100, #D3D3D3);
+    background: #FFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 39px;
+    margin-right: 37px;
+}
+.save{
+border-radius: 4px;
+background: var(--foundation-grey-grey-400, #8D8D8D);
+color: white;
+}
+label{
+    font-weight: bold;
+}
+
+.three-text{
+    display: flex;
+    gap: 65px;
+}
+
+.basic-information{
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.roles{
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.client-role{
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    padding-bottom: 60px;
+}
+
+.pre-design{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 55%;
+}
+.select-budget{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 40%;
+    place-items: baseline;
+}
+
+p.total {
+    color: #000;
+    /* font-family: Red Hat Display; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p.basic {
+    color: var(--brand-dark-olive, #354733);
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+select.percentage {
+    border-radius: 2px;
+    background: var(--foundation-grey-grey-50, #F1F1F1);
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    ul.details-tab  {
+      gap: 10px;
+    }
+
+    .three-text {
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+  }
+  .basic{
+    font-weight: bold;
+  }
+
+  .img-client{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  
+

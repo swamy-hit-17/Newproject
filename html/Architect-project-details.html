@@ -1,0 +1,273 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="project-deatils.css">
+</head>
+
+<body>
+
+
+    <div class="main-container d-flex">
+        <div class="sidebar" id="side_nav">
+            <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+                <h1 class="fs-4"><span class="text-dark" style="    margin-left: 30px;">Archestra</span></h1>
+                <button class="btn d-md-none d-block close-btn px-1 py-0 text-dark"><i
+                        class="fal fa-stream"></i></button>
+            </div>
+
+            <ul class="list-unstyled px-2">
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-home"></i>
+                        Dashboard</a></li>
+                <li class=""><a href="index.html" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-list"></i>
+                        booking</a></li>
+                <li class=""><a href="contract.html" class="text-decoration-none px-3 py-2 d-block d-flex justify-content-between ">
+                        <span><i class="fal fa-comment"></i> Contract & Doc’s</span>
+                        <span class="bg-dark rounded-pill text-white py-0 px-2">02</span>
+                    </a>
+                </li>
+                <li class="active"><a href="project.html" class="text-decoration-none px-3 py-2 d-block"><i
+                            class="fal fa-envelope-open-text"></i> Project</a></li>
+                <li class=""><a href="invoices.html" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-users"></i>
+                        Invoice</a></li>
+
+                <li class=""><a href="payment.html" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-users"></i>
+                        Payment</a></li>
+
+                        <li class=""><a href="clients.html" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-bell"></i>
+                            Clients</a></li>
+                            <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa fa-comment" aria-hidden="true"></i>
+                                Chats</a></li>
+                                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa fa-cog" aria-hidden="true"></i>
+                                    Settings</a></li>
+                                    <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                                        Logout Account</a></li>
+
+
+            </ul>
+
+
+        </div>
+        <div class="content">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between d-md-none d-block">
+                        <button class="btn px-1 py-0 open-btn me-2"><i class="fal fa-stream"></i></button>
+                        <a class="navbar-brand fs-4" href="#"><span
+                                class="bg-dark rounded px-2 py-0 text-white">Archestra</span></a>
+
+                    </div>
+                    <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                            alt="" class="imageprofile">
+
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i
+                                        class="fal fa-bell"></i></a>
+                            <li></li>
+                            <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                                alt="" class="imageprofile">
+
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="flex-container">
+                <div class="new-container">
+                    <div class="dashboard-content px-3 pt-4">
+                        <h6 class="text-heading">Project Details</h6>
+                        <div class="card-container">
+                            <div class="card" id="new-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Shanti Nivas</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Bangalore</h6>
+                                    <div class="img-client">
+                                        <img alt="..."
+                                            src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                                            class="avatar avatar-sm rounded-circle me-2">
+
+                                        <a href="#" class="card-link">Client : Rajshaker</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="pre-design">
+                                <h5 class="card-title">Pre Design</h5>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                <button type="button" class="btn btn-light" style="background: #FFE7BE;
+            border-radius: 32px;color: #F5A623;font-size: 12px; margin-top: 32%;">Ongoing</button>
+                            </div>
+                            <div class="card" id="locked-box">
+                                <h5 class="card-title">Schematic Design</h5>
+                                <div class="lock-icon"></div>
+                                <div class="box-content">
+                                    <!-- Your box content here -->
+                                    <p>Yes to start</p>
+                                </div>
+                            </div>
+                            <div class="card" id="locked-box">
+                                <h5 class="card-title"> Design Development</h5>
+                                <div class="lock-icon"></div>
+                                <div class="box-content">
+                                    <!-- Your box content here -->
+                                    <p>Yes to start</p>
+                                </div>
+                            </div>
+
+
+                            <div class="card" id="locked-box">
+                                <h5 class="card-title">Document</h5>
+                                <div class="lock-icon"></div>
+                                <div class="box-content">
+                                    <!-- Your box content here -->
+                                    <p>Yes to start</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <ul class="details-tab">
+                        <li class="overview active">
+                            <a href=""> Basic Details</a>
+                        </li>
+                        <li class="detail-sow">
+                            <a href="project-sow.html"> Sow</a></li>
+                        <li class="detail-budget">
+                            <a href="project-budget.html">Budget</a></li>
+                    </ul>
+
+
+                    <div class="projectdiscription-andsave">
+                        <button class="save"> Save</button>
+
+                    </div>
+
+                    <form>
+                        <label for="textfield">Project Description</label><br>
+                        <input type="text" id="textfield" name="textfield" placeholder="">
+                    </form>
+
+                    <div class="basic-information">
+                        <p class="basic">Basic Information</p>
+                        <div class="three-text">
+                            <p>Start Date:<span style="color: #808276;"> 28/04/2023</span> </p>
+                            <p>End Date : <span style="color: #808276;">10/05/2023</span></p>
+                            <p>Budget  : <span style="color: #808276;">₹20,000</span></p>
+                        </div>
+                        <p>Architect Name: <span style="color: #808276;"> Ar. Somnath</span></p>
+
+                    </div>
+                    
+
+                    <div class="roles">
+                        <p class="basic"> Roles</p>
+                        <p class="basic">Architect Role</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam, iure praesentium totam voluptatibus quae repellendus ipsam itaque, qui, odio rem nemo quod.</p>  
+                    </div>
+
+                    <div class="client-role">
+                    
+                        <p class="basic">Client Role</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam, iure praesentium totam voluptatibus quae repellendus ipsam itaque, qui, odio rem nemo quod.</p>  
+                    
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <style>
+        body {
+            background: #eee;
+        }
+
+        #side_nav {
+            background: #000;
+            min-width: 250px;
+            max-width: 250px;
+            transition: all 0.3s;
+        }
+
+        .content {
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        hr.h-color {
+            background: #eee;
+        }
+
+        .sidebar li.active {
+            background: #eee;
+            border-radius: 8px;
+        }
+
+        .sidebar li.active a,
+        .sidebar li.active a:hover {
+            color: #000;
+        }
+
+        .sidebar li a {
+            color: #fff;
+        }
+
+        @media(max-width: 767px) {
+            #side_nav {
+                margin-left: -250px;
+                position: absolute;
+                min-height: 100vh;
+                z-index: 1;
+
+            }
+
+            #side_nav.active {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+    <script>
+
+
+        $(".sidebar ul li").on('click', function () {
+            $(".sidebar ul li.active").removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.open-btn').on('click', function () {
+            $('.sidebar').addClass('active');
+
+        });
+
+
+        $('.close-btn').on('click', function () {
+            $('.sidebar').removeClass('active');
+
+        })
+    </script>
+
+</body>
